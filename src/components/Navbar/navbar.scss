@@ -1,0 +1,32 @@
+.navbar {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    &__search {
+        display: flex;
+    }
+
+    &__links {
+        display: flex;
+        gap: 15px;
+    }
+
+    img {
+        display: block;
+        width: 42px;
+        height: 42px;
+    }
+
+    &__temp {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
